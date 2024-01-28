@@ -1,0 +1,1 @@
+rsync -rlptgoDvHxz --progress --force --numeric-ids --delete --delete-excluded "$1" "$2"
